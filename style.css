@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+
+}
+#header{
+    width: 100%;
+    height: 90px;
+    background-color: #0a0b27;
+    position: fixed;
+}
+.logo{
+    padding: 30px;
+}
+.right-side>ul{
+    display: flex;
+    color: #ffffff;
+    font-size: 23px;
+    font-family: merivaregular;
+    letter-spacing: 1px;
+    list-style: none;
+}
+.right-side>ul>li{
+    padding-right: 30px;
+}
+.header-tags>i{
+    padding-left: 10px;
+}
+.inside-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-side>ul>li:hover{
+    color: rgb(220, 90, 47);
+}
+section>img{
+    width: 100%;
+}
+#description-section{
+    width: 100%;
+    height: 1000px;
+    margin-top: -5px;
+    display: flex;
+    background-color:#f4f1f1;
+}
+.discription-section-1{
+    width: 50%;
+    background-color: #f09130;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discription-section-2{
+    width: 50%;
+    background-color:#f4f1f1;
+    line-height: -1px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 50px 30px 50px 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+h1{
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    font-style: normal;
+}
+.app-icon{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.app-icon>li{
+    list-style: none;
+    margin-right: 20px;
+}
+p{
+    margin-top: 20px;
+}
+.frooti{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+
+.text{
+    text-decoration: none;
+    color: #0a0b27;
+}
+.text:hover{
+    text-decoration: underline;
+    color: rgb(208, 50, 50);
+}
